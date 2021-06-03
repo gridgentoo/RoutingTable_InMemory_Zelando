@@ -1,6 +1,14 @@
 Код взят из репозитария Zalando для трансформации в RoutingTable_InMemory
 https://github.com/zalando/skipper
 
+Zelando делает Skipper открытыми в Google диске [Skipper's Google drive](https://drive.google.com/drive/folders/0B9LwJMF9koB-ZEk4bEhZal9uOWM). 
+
+Skipper можно использовать для работы в качестве входящего контроллера Kubernetes. 
+Подробную информацию с примерами возможностей Skipper и обзором вы найдете в документах Zalando по развертыванию ingress-controller deployment docs.
+
+Zalando использует Skipper как проект Интернет магазина frontend http router с 350000 маршрутами, 
+как Kubernetes ingress controller и запускает несколько пользовательских экземпляров skipper, которые используют skipper в качестве библиотеки.
+
 [![Build Status](https://github.com/zalando/skipper/workflows/ci/badge.svg)](https://github.com/zalando/skipper/actions?query=branch%3Amaster)
 [![Doc](https://img.shields.io/badge/-userdocs-darkblue.svg)](https://opensource.zalando.com/skipper)
 [![GoDoc](https://godoc.org/github.com/zalando/skipper?status.svg)](https://godoc.org/github.com/zalando/skipper)
@@ -186,7 +194,8 @@ and detailed information on these topics:
 
 #### 1 Minute Skipper introduction
 
-The following example shows a skipper routes file in eskip format, that has 3 named routes: baidu, google and yandex.
+The following example shows a skipper routes file in eskip format, that has 3 named routes: baidu, 
+and yandex.
 
     % cat doc-1min-intro.eskip
     baidu:
