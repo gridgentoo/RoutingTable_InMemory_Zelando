@@ -9,6 +9,12 @@ Skipper можно использовать для работы в качест�
 Zalando использует Skipper как проект Интернет магазина frontend http router с 350000 маршрутами, 
 как Kubernetes ingress controller и запускает несколько пользовательских экземпляров skipper, которые используют skipper в качестве библиотеки.
 
+Несколько примеров расширения шкипера:
+
+Сервер изображений https://github.com/zalando-stups/skrop
+Репозиторий плагинов https://github.com/skipper-plugins/, [plugin docs](https://opensource.zalando.com/skipper/reference/plugins/)
+
+
 [![Build Status](https://github.com/zalando/skipper/workflows/ci/badge.svg)](https://github.com/zalando/skipper/actions?query=branch%3Amaster)
 [![Doc](https://img.shields.io/badge/-userdocs-darkblue.svg)](https://opensource.zalando.com/skipper)
 [![GoDoc](https://godoc.org/github.com/zalando/skipper?status.svg)](https://godoc.org/github.com/zalando/skipper)
