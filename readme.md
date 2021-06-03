@@ -1,3 +1,6 @@
+Код взят из репозитария Zalando для трансформации в RoutingTable_InMemory
+https://github.com/zalando/skipper
+
 [![Build Status](https://github.com/zalando/skipper/workflows/ci/badge.svg)](https://github.com/zalando/skipper/actions?query=branch%3Amaster)
 [![Doc](https://img.shields.io/badge/-userdocs-darkblue.svg)](https://opensource.zalando.com/skipper)
 [![GoDoc](https://godoc.org/github.com/zalando/skipper?status.svg)](https://godoc.org/github.com/zalando/skipper)
