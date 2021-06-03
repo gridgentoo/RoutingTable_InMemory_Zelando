@@ -12,6 +12,7 @@ Zalando использует Skipper как проект Интернет маг
 Несколько примеров расширения шкипера:
 
 Сервер изображений https://github.com/zalando-stups/skrop
+
 Репозиторий плагинов https://github.com/skipper-plugins/, [plugin docs](https://opensource.zalando.com/skipper/reference/plugins/)
 
 
