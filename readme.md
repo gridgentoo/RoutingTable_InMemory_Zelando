@@ -3,6 +3,11 @@ https://github.com/zalando/skipper
 
 Zelando делает Skipper открытыми в Google диске [Skipper's Google drive](https://drive.google.com/drive/folders/0B9LwJMF9koB-ZEk4bEhZal9uOWM). 
 
+Skipper может использовать InMemory Etcd в качестве источников данных для маршрутов [routes]
+
+Skipper может использовать Innkeeper в качестве источников данных для маршрутов [routes]
+https://github.com/zalando/Innkeeper
+
 Skipper можно использовать для работы в качестве входящего контроллера Kubernetes. 
 Подробную информацию с примерами возможностей Skipper и обзором вы найдете в документах Zalando по развертыванию ingress-controller deployment docs.
 
